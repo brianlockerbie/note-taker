@@ -1,26 +1,28 @@
 const router = require('express').Router();
 const {writeNote, dbUpdate} = require("../../lib/notes");
 const {notes} = require("../../db/db/json");
+const { v4: uuidv4 } = require('uuid');
 
-const { writeNote, dbUpdate, } = require("");
 
 const { notes } = require('');
 
-const { uuid } = require('uuidv4');
+
 
 router.get("/notes", (req, res) => {
-    let info = notes;
-    res.json(info);
+    let results = notes;
+    res.json(results);
 });
 
 router.post("/notes", (req, res) => {
-    let info = notes;
-    res.json(info);
+    req.body.id = uuidv4();
+    const newInfo = writeNote(req.body, notes);
+    res.json(newInfo);
 });
 
-router.delete("/notes", (req, res) => {
-    let info = notes;
-    res.json(info);
+router.delete("/notes/:id", (req, res) => {
+    const params = req.params.id
+    dbUpdate(params, notes);
+    res.redirect('');
 });
 
 module.exports = router;
