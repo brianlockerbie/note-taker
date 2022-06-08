@@ -1,10 +1,8 @@
 const router = require('express').Router();
 const {writeNote, dbUpdate} = require("../../lib/notes");
-const {notes} = require("../../db/db/json");
+const {notes} = require("../../db/db.json");
 const { v4: uuidv4 } = require('uuid');
 
-
-const { notes } = require('');
 
 
 

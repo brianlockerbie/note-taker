@@ -23,6 +23,6 @@ app.use('/api', apiRoutes);
 app.use('/', htmlRoutes);
 
 
-app.listen(Port, () => {
-    console.log(`View API server on port ${PORT}. Enjoy!`)
-})
+app.listen(PORT, () => {
+    console.log(`View API server on port ${PORT}. Enjoy!`);
+});
