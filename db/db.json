@@ -1,6 +1,19 @@
-[
+{
+  "info": [
     {
-        "title":"Test Title",
-        "text":"Test text"
+      "title": "Note #1",
+      "text": "Note #1",
+      "id": "a75590f8-e794-11ec-8fea-0242ac120002"
+    },
+    {
+      "title": "Note #2",
+      "text": "Note #2",
+      "id": "e9c167be-e794-11ec-8fea-0242ac120002"
+    },
+    {
+      "title": "Note #3",
+      "text": "Note #3",
+      "id": "f0e12b2e-e794-11ec-8fea-0242ac120002"
     }
-]
+  ]
+}
