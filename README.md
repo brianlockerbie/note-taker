@@ -1,3 +1,23 @@
+<h1 align="center">Note Taker App 🗒️</h1>
+<p align="center">Module #11 - Express.js</p>
+
+## Description
+This Note Taker application can be used to write and save notes. Express.js is used for the back end so that the application can save and return older & current notes.
+
+## Built With:
+* JavaScript
+* Node.js
+* NPM
+* Express
+* CSS
+* HTML
+
+## Installation
+First clone this repository & run "npm i" to your computer. Once installed, type "node server.js" in the terminal. You can find the application on localhoust:3001. To stop the server hold control button + C
+
+## Usage
+Live Link https://radiant-chamber-54860.herokuapp.com
+
 ## User Story
 
 AS A small business owner
@@ -19,3 +39,8 @@ WHEN I click on an existing note in the list in the left-hand column
 THEN that note appears in the right-hand column
 WHEN I click on the Write icon in the navigation at the top of the page
 THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
+
+## Screenshots
+<img src="images/note-taker-ss.png>
+<img src="images/note-taker-ss1.png>
+
