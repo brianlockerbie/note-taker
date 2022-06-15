@@ -13,7 +13,7 @@ This Note Taker application can be used to write and save notes. Express.js is u
 * HTML
 
 ## Installation
-First clone this repository & run "npm i" to your computer. Once installed, type "node server.js" in the terminal. You can find the application on localhoust:3001. To stop the server hold control button + C
+First clone this repository & run "npm i" to your computer. Once installed, type "node server.js" in the terminal. You can find the application on localhost:3001. To stop the server, hold control button + C button.
 
 ## Usage
 Live Link https://radiant-chamber-54860.herokuapp.com
