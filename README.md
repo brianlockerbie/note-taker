@@ -38,7 +38,7 @@ THEN that note appears in the right-hand column<br>
 WHEN I click on the Write icon in the navigation at the top of the page<br>
 THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
 ## Installation
-First clone this repository & run "npm i" to your computer. Once installed, type "node server.js" in the terminal. You can find the application on localhoust:3001. To stop the server hold control button + C
+First clone this repository & run "npm i" to your computer. Once installed, type "node server.js" in the terminal. You can find the application on localhost:3001. To stop the server, hold control button + C button.
 
 ## Usage
 Live link [here](https://radiant-chamber-54860.herokuapp.com)
