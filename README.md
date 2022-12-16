@@ -41,7 +41,7 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 First clone this repository & run "npm i" to your computer. Once installed, type "node server.js" in the terminal. You can find the application on localhost:3001. To stop the server, hold control button + C button.
 
 ## Usage
-Live link [here](https://radiant-chamber-54860.herokuapp.com)
+Live link [here](https://web-production-048a.up.railway.app)
 
 
 ## Screenshots
